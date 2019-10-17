@@ -34,6 +34,7 @@ public class Dog extends Animal{
     private void movelegs(int speed)
     {
         System.out.println("dog.movelegs() called");
+        System.out.println("dog.movehands");
     }
 
     @Override
